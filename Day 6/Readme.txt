@@ -1,0 +1,1 @@
+A set of two programs which prints the Pascal Triangle in two different methods.

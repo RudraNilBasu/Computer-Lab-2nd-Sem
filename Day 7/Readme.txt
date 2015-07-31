@@ -1,0 +1,1 @@
+A simple program to multiply two matrices (size is taken input from the user)

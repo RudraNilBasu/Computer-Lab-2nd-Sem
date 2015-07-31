@@ -1,0 +1,1 @@
+Demonstration of using structs to calculate student informations.

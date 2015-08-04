@@ -1,3 +1,4 @@
+//Using Combinations
 #include<stdio.h>
 long fact(int);
 int main()

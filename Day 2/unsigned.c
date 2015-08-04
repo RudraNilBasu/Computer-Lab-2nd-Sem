@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	unsigned int n=0xFFFFFFFE;
+	unsigned int n=0xFFFFFFFE;   // maximum value of unsigned int -1 (n+1) is the maximum value
 	printf("\n%u\n",n);
 	printf("\n%u\n",++n);
 	printf("\n%u\n",++n);

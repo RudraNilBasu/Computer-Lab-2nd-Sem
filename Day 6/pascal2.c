@@ -1,5 +1,7 @@
+//Using property of Pascal Triangle
+//RNB @PriZm
 #include<stdio.h>
-int main()    // RNB @PRIZM
+int main()    
 {
 	int n;
 	printf("Enter the number of lines\n");

@@ -7,7 +7,6 @@ int main()
 	printf("Enter the number of lines\n");
 	int i,j,k,l;
 	scanf("%d",&n);
-	//if(n%2==1){n++;}
 	int *current;
 	current=(int*)malloc((n)*sizeof(int));
 	int *last;

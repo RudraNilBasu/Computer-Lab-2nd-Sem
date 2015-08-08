@@ -7,7 +7,7 @@ int main()
 	int m,n,c,p,q,d,k,sum=0;
 	int first[10][10]; // maximum upto 10 X 10 Matrix
 	int second[10][10];
-	int multiply[10][10];
+	int multiply[10][10]; // Final result will be stored here
 	printf("Enter number of rows and Columns of first matrix\n");
 	scanf("%d %d",&m,&n);
 	//printf("Enter the elements of the First mastrix\n");

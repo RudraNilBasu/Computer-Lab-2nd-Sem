@@ -1,6 +1,9 @@
 // RNB @PRIZM
+// Here we are multiplying two matrices, whose dimensions are given by the user, 
+// but the matrix will be filled by random value using rand() function
 #include<stdlib.h>
 #include <stdio.h>
+
 int main()
 {
 	

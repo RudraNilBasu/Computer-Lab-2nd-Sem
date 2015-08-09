@@ -12,7 +12,7 @@ int main()
 	scanf("%d %d",&m,&n);
 	//printf("Enter the elements of the First mastrix\n");
 	int i,j;
-	srand(time(NULL));
+	srand(time(NULL)); // Starting the seed
 	for(i=0;i<m;i++)   // replace with random number
 	{
 		for(j=0;j<n;j++)
@@ -20,8 +20,6 @@ int main()
 			
 			first[i][j]=rand();
 			first[i][j]=first[i][j]%11;			
-			//first[i][j]=srand(0,10);//
-			//scanf("%d",&first[i][j]);
 		}
 	}
 	printf("Enter number of rows and Columns of second matrix\n");
@@ -31,14 +29,13 @@ int main()
 	{
 		for(j=0;j<q;j++)
 		{
-			//srand(time(NULL));
 			second[i][j]=rand();
 			second[i][j]=second[i][j]%11;			
 			//second[i][j]=srand(0,10);
 			//scanf("%d",&second[i][j]);
 		}
 	}
-	if(n!=p)   // the error message
+	if(n!=p)   // the error message if not compatible
 	{
 		printf("\nERROR CANNOT MULTIPLY\n");  // number of columns of first != number of rows in second
 	}

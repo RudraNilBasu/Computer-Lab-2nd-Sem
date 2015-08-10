@@ -15,9 +15,9 @@ int main()
 	};	
 	// struct for info	
 	struct info {
-	char name[SIZE+1];
-	int roll;
-	int regn;
+	char name[SIZE+1]; //name
+	int roll;   //roll
+	int regn;   // registration no
 	char dob[10];
 	long long int ph;
 	struct subject sub;	

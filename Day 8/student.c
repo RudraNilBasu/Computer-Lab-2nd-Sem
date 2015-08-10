@@ -74,6 +74,7 @@ int main()
 		scanf("%s",&p[i].sub.s4);//taking 4th Subject input
 		printf("\n");
 	}
+	// printing the infos
 	printf("INFO FOUND ARE \n");
 	for(i=0;i<NUMBER;i++)
 	{

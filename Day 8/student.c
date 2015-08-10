@@ -1,4 +1,4 @@
-//This Works without any Warnings
+//This Works without any Warnings.
 //Used gets() instead of scanf()
 //RNB@PRIZM
 #include<stdio.h>

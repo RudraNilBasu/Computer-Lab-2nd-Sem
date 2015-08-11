@@ -40,7 +40,7 @@ int main()
 	}
 	if(n!=p)   // the error message if not compatible
 	{
-		printf("\nERROR CANNOT MULTIPLY\n");  // number of columns of first != number of rows in second
+		printf("\nERROR:CANNOT MULTIPLY\n");  // number of columns of first != number of rows in second
 	}
 	else
 	{

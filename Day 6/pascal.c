@@ -8,9 +8,9 @@ int main()
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
-		for(c=0;c<=(n-i-2);c++)
+		for(c=0;c<=(n-i-2);c++) // Printing spaces
 		{printf(" ");}
-		for(c=0;c<=i;c++)
+		for(c=0;c<=i;c++) // calculating combinations
 		{
 			printf("%ld ",fact(i)/(fact(c)*fact(i-c)));
 		}

@@ -11,7 +11,7 @@ int main()
 {
 	int a,b,div;
 	printf("Enter 2 numbers\n");
-	scanf("%d %d",&a,&b);
+	scanf("%d %d",&a,&b);	// accepting the two numbers from the user
 	div=divide(a,b);
 	printf("ANSWER = %d\n",div);
 	return 0;

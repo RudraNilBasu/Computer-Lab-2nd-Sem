@@ -19,7 +19,7 @@ int main()
 	return 0;
 }
 
-long fact(int n)
+long fact(int n)  // function to return factorial of the number "n"
 {
 	long f=1;
 	int i=1;

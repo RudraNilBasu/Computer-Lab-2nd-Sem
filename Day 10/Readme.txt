@@ -1,1 +1,1 @@
-Simple demonstration of the implementation of File Operation in C.
+Simple demonstration of implementation of File Operation in C.

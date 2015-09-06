@@ -22,7 +22,7 @@ int main()
 		strcat(s[i].name,"\n");
 		fputs(s[i].name,fp);
 		printf("Enter Roll\n");
-		scanf("%s",&s[i].roll);//gets(s[i].roll);
+		scanf("%s",&s[i].roll);//gets(s[i].roll); try gets maybe ?
 		strcat(s[i].roll,"\n");
 		fputs(s[i].roll,fp);
 		printf("Enter DOB dd/mm/yyyy\n");
